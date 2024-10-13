@@ -3,17 +3,24 @@ html, body {
 }
 
 body {
-    font: 20px Montserrat, sans-serif;
+    font: 20px "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
     line-height: 1.8;
-    color: #f5f6f7;
+    color: black;
 }
 
 p {
-    font-size: 16px;
+    font-size: 15px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 a {
-    color: #2e72a1;
+    color: #FF2283;
 }
 
 #logo, .project-img {
@@ -27,26 +34,26 @@ a {
 }
 
 #sep {
-    height: 75px;
+    height: 40px;
 }
 
 .margin {
-    margin-bottom: 45px;
+    margin-bottom: 40px;
 }
 
 .bg-1 {
-    background-color: #ffffff; /* White */
-    color: #555555;
+    background-color: #FFD6E8; /* (FFD6E8) FF2283 and FF7FB8 */
+    color: #FF2283;
 }
 
 .bg-2 {
-    background-color: #2e72a1; /* Blue */
-    color: #ffffff;
+    background-color: #FFC6DF; /* (FF338D) FF2283 and FFC6DF */
+    color: #FF2283;
 }
 
 .card {
-    color: black;
-    text-align: left;
+    color: #FF2283;
+    text-align: middle;
 }
 
 .card-title {
@@ -54,13 +61,13 @@ a {
 }
 
 .bg-3 {
-    background-color: #000000; /* Black */
-    color: #ffffff;
+    background-color: #FFD6E8; /* (FF338D) FF2283 and FFD6E8 */
+    color: #FF2283;
 }
 
 .bg-4 {
-    background-color: #343a40; /* Dark Gray */
-    color: #fff;
+    background-color: #FFC6DF; /* FFC6DF */
+    color: black;
 }
 
 .container-fluid {
